@@ -1,0 +1,32 @@
+C:/tinyproc/memory.v {1 {vlog -work work -stats=none C:/tinyproc/memory.v
+Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+-- Compiling module memory
+
+Top level modules:
+	memory
+
+} {} {}} C:/tinyproc/memory_tb.v {1 {vlog -work work -stats=none C:/tinyproc/memory_tb.v
+Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+-- Compiling module memory_tb
+
+Top level modules:
+	memory_tb
+
+} {} {}} C:/tinyproc/proc_top.v {1 {vlog -work work -stats=none C:/tinyproc/proc_top.v
+Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+
+} {} {}} C:/tinyproc/regfile.v {1 {vlog -work work -stats=none C:/tinyproc/regfile.v
+Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+-- Compiling module regfile
+
+Top level modules:
+	regfile
+
+} {} {}} C:/tinyproc/regfile_tb.v {1 {vlog -work work -stats=none C:/tinyproc/regfile_tb.v
+Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+-- Compiling module regfile_tb
+
+Top level modules:
+	regfile_tb
+
+} {} {}}

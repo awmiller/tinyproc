@@ -1,0 +1,39 @@
+module regfile_tb();
+
+	reg [4:0] AddrA,AddrB,AddrC;
+	reg [31:0] DinC;
+	reg clk,wrback;
+	wire [31:0] DoA,DoB;
+	
+	regfile mrfile(AddrA,AddrB,AddrC,DinC,DoA,DoB,clk,wrback);
+	
+	initial begin
+	
+		AddrA<=0;
+		AddrB<=0;
+		AddrC<=0;
+		DinC<=0;
+		clk<=0;
+		wrback<=0;
+		
+		#10 wrback = 1;
+		#1 DinC = -2540;
+		#1 AddrC = 12;
+		#1 AddrB = 12;
+		#1 AddrA = 2;
+		#1 clk=1;
+		#10 clk=0;
+		#1 AddrC = 2;
+		#1 DinC = 2550;
+		#1 clk=1;
+		#10 clk=0;
+		#1 DinC = DoA+DoB;
+		#1 clk=1;
+		#10 clk=0;
+		#1 clk=1;
+		#10 clk=0;
+		
+	end
+		
+
+endmodule

@@ -1,0 +1,90 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/altera/16.0
+vmemory
+Z0 !s110 1473296805
+!i10b 1
+!s100 Ajm?_7JXkQJ<kFJf7Ee^n1
+IbWRbAX4m=cXCE8lX=RJEF1
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+Z2 dC:/tinyproc
+w1473284832
+8C:/tinyproc/memory.v
+FC:/tinyproc/memory.v
+L0 3
+Z3 OV;L;10.4d;61
+r1
+!s85 0
+31
+Z4 !s108 1473296805.000000
+!s107 C:/tinyproc/memory.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/tinyproc/memory.v|
+!i113 1
+Z5 o-work work
+vmemory_tb
+R0
+!i10b 1
+!s100 RROWc1[kR_;zASW2ebCTE3
+IcZmDRYNZE:1R2;iIb>Ilk0
+R1
+R2
+w1473273316
+8C:/tinyproc/memory_tb.v
+FC:/tinyproc/memory_tb.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/tinyproc/memory_tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/tinyproc/memory_tb.v|
+!i113 1
+R5
+vregfile
+R0
+!i10b 1
+!s100 0E_WR6CP_H^fD^1]5iH=73
+I_6FSNNJj1nI5HiQFZXj030
+R1
+R2
+w1473296802
+8C:/tinyproc/regfile.v
+FC:/tinyproc/regfile.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/tinyproc/regfile.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/tinyproc/regfile.v|
+!i113 1
+R5
+vregfile_tb
+R0
+!i10b 1
+!s100 cJ_L`lDDJnIY_>APP:Ih;2
+Ibi?cT@<lB^T<4Oe25I=9R1
+R1
+R2
+w1473296357
+8C:/tinyproc/regfile_tb.v
+FC:/tinyproc/regfile_tb.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/tinyproc/regfile_tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/tinyproc/regfile_tb.v|
+!i113 1
+R5
